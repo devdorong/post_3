@@ -1,0 +1,57 @@
+@import url(https://assets5.cre.ma/widgets/assets/pc-c9334d1331a67b88a5bbb28c4c16b01ef5184ab1c165983eb0e8207debdf3b2d.css);
+
+body {
+  margin: 0;
+  font-family: pretendard, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul,
+ol {
+  list-style: none;
+}
+html {
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../public/font/Pretendard-Regular.4e0fc985.woff) format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../public/font/Pretendard-Medium.36c0da1d.woff) format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 600;
+  src: url(../public/font/Pretendard-SemiBold.9b3b0548.woff) format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../public/font/Pretendard-Bold.caa27e3d.woff) format("woff");
+}

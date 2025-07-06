@@ -1,0 +1,99 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@import url(https://catholicbookplus.kr/shop/_next/static/css/fd8e5896a78379be.css?dpl=dpl_ABArASNdpNp4VWCneyVbcZMhb7fd);
+@import url(https://catholicbookplus.kr/shop/_next/static/css/72186023dc9687ed.css?dpl=dpl_ABArASNdpNp4VWCneyVbcZMhb7fd);
+@import url(https://catholicbookplus.kr/shop/_next/static/css/5f0ae93e078eadac.css?dpl=dpl_ABArASNdpNp4VWCneyVbcZMhb7fd);
+@import url(https://assets5.cre.ma/widgets/assets/pc-c9334d1331a67b88a5bbb28c4c16b01ef5184ab1c165983eb0e8207debdf3b2d.css);
+* {
+  margin: 0;
+  padding: 0;
+  /* 선택사항 탭키 누를시 포커스에 검은테두리 보기싫으면 적용 */
+  outline-style: none;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 300;
+  src: url(/shop/_next/static/media/Pretendard-Light.1978fa0a.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/shop/_next/static/media/Pretendard-Regular.4e0fc985.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 500;
+  src: url(/shop/_next/static/media/Pretendard-Medium.36c0da1d.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 600;
+  src: url(/shop/_next/static/media/Pretendard-SemiBold.9b3b0548.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/shop/_next/static/media/Pretendard-Bold.caa27e3d.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 800;
+  src: url(/shop/_next/static/media/Pretendard-Black.192eee4a.woff)
+    format("woff");
+}
+
+@font-face {
+  font-family: pretendard;
+  font-style: normal;
+  font-weight: 900;
+  src: url(/shop/_next/static/media/Pretendard-ExtraBold.06ea4fe1.woff)
+    format("woff");
+}
+ul {
+  list-style: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+html {
+  min-width: 640px;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.wrap {
+}
+
+body {
+  font-family:
+    pretendard,
+    sans-serif,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    "Noto Sans",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
