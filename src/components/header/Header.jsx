@@ -1,5 +1,5 @@
 import React from "react";
-import "../header/Header.css";
+import "./Header.scss";
 function Header() {
   return (
     <div className="header">
@@ -9,7 +9,7 @@ function Header() {
             <div className="logo">
               <img src="/images/bi.svg" alt="#" />
             </div>
-            <ul>
+            <ul className="htl_ul">
               <li>
                 <a href="#">웹진</a>
               </li>
@@ -130,6 +130,77 @@ function Header() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="book_over">
+        <ul>
+          <li>
+            <a href="#">기도</a>
+          </li>
+          <li>
+            <a href="#">마리아</a>
+          </li>
+          <li>
+            <a href="#">인물·교회사</a>
+          </li>
+          <li>
+            <a href="#">임시</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">묵상</a>
+          </li>
+          <li>
+            <a href="#">시리즈</a>
+          </li>
+          <li>
+            <a href="#">사목</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">영성·심리</a>
+          </li>
+          <li>
+            <a href="#">문학</a>
+          </li>
+          <li>
+            <a href="#">달력</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">성경</a>
+          </li>
+          <li>
+            <a href="#">교리·교재</a>
+          </li>
+          <li>
+            <a href="#">일반</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">전례</a>
+          </li>
+          <li>
+            <a href="#">신학·철학</a>
+          </li>
+          <li>
+            <a href="#">일반</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">노트</a>
+          </li>
+          <li>
+            <a href="#">어린이·청소년</a>
+          </li>
+          <li>
+            <a href="#">청년성서모임</a>
+          </li>
+        </ul>
       </div>
     </div>
   );
