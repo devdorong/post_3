@@ -1,5 +1,6 @@
 .header {
   .header_wrap {
+    position: relative;
     padding-top: 16px;
     padding-bottom: 20px;
     padding-left: 130px;
@@ -71,10 +72,10 @@
     .header_bottom {
       padding-left: 56px;
       padding-top: 20px;
-      ul {
+      > ul {
         display: flex;
-        li {
-          a {
+        > li {
+          > a {
             line-height: 1;
             font-weight: 500;
             color: #76767b;
@@ -83,54 +84,100 @@
           }
         }
         li.book {
-          position: relative;
-
           .book_over {
-            background-color: #6fd154;
-            display: none;
             position: absolute;
-            top: 40px;
-            left: -233px;
-            background: #fff;
-            width: 100vw;
+            left: 0;
+            top: 101%;
+            display: none;
+            max-width: 1980px;
             border-bottom: 1px solid #f3f4f6;
-            z-index: 1000;
+            z-index: 999;
+            background-color: #fff;
 
             .book_over_wrap {
-              // background-color: red;
-              height: 272px;
               display: flex;
               justify-content: space-between;
-              align-items: center;
-              padding-bottom: 20px;
+              padding-top: 40px;
+              padding-bottom: 40px;
               padding-right: 20px;
               margin: 0 336px;
-
               ul {
-                height: 160px;
                 display: flex;
                 flex-direction: column;
-                li a {
-                  display: flex;
-                  align-items: center;
-                  padding-left: 20px;
-                  width: 200px;
-                  height: 48px;
-                  color: #76767b;
-                  font-weight: 500;
-
-                  &:hover {
-                    background-color: #f5f5f5;
-                    color: #000;
+                align-items: start;
+                li {
+                  a {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 20px;
+                    width: 200px;
+                    height: 48px;
+                    color: #76767b;
+                    font-weight: 500;
+                    &:hover {
+                      background-color: #f5f5f5;
+                      color: #000;
+                    }
                   }
                 }
               }
             }
           }
-
           &:hover {
             .book_over {
               display: block;
+            }
+            > a {
+              color: #6fd154;
+            }
+          }
+        }
+        li.relic {
+          .relic_over {
+            position: absolute;
+            left: 0;
+            top: 101%;
+            display: none;
+            max-width: 1980px;
+            border-bottom: 1px solid #f3f4f6;
+            z-index: 999;
+            background-color: #fff;
+
+            .relic_over_wrap {
+              height: 100%;
+              display: flex;
+              justify-content: space-between;
+              padding-top: 40px;
+              padding-bottom: 40px;
+              padding-right: 20px;
+              margin: 0 336px;
+              ul {
+                display: flex;
+                flex-direction: column;
+                li {
+                  a {
+                    display: flex;
+                    align-items: center;
+                    padding-left: 20px;
+                    width: 200px;
+                    height: 48px;
+                    color: #76767b;
+                    font-weight: 500;
+                    &:hover {
+                      background-color: #f5f5f5;
+                      color: #000;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          &:hover {
+            .relic_over {
+              display: block;
+            }
+            > a {
+              color: #6fd154;
             }
           }
         }

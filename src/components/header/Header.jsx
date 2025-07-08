@@ -190,15 +190,61 @@ function Header() {
               </div>
             </li>
 
-            <li>
+            <li className="relic">
               <a href="#">성물</a>
+              <div className="relic_over">
+                <div className="relic_over_wrap">
+                  <ul>
+                    <li>
+                      <a href="#">묵주</a>
+                    </li>
+                    <li>
+                      <a href="#">소품</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">성상</a>
+                    </li>
+                    <li>
+                      <a href="#">기타</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">십자가</a>
+                    </li>
+                    <li>
+                      <a href="#">절기·시즌</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">수입성물</a>
+                    </li>
+                    <li>
+                      <a href="#">임시</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">전례소품</a>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li>
+                      <a href="#">액자·이콘</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </li>
 
-            <li>
+            <li className="Jewelry">
               <a href="#">주얼리</a>
             </li>
 
-            <li>
+            <li className="event">
               <a href="#">이벤트</a>
             </li>
           </ul>
